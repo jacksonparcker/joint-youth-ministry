@@ -432,8 +432,8 @@ body {
     padding-top: 50px;
     background-color: chocolate;
 }
-iframe {
-    width: 97vw;
+iframe{
+    width: fit-content;
 }
 
 /*------lower navbar------*/
