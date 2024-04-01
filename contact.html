@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>JOINT YOUTH MINISTRIES</title> 
+        <link rel="stylesheet" href="ccs/CONTACT.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body class="home">
+        <section class="sec">
+            <div class="logo">
+                <img src="pics/LOGO.png">
+                <form class="form" id="form1" action="#" onsubmit="sendEmail()">
+                    <label><h1>For inquiry</h1></label>
+                    <label class="firstnamel">first name</label>
+                    <div class="firstnamet"><input type="text" id="firstname"></div>
+                    <label class="secondnamel">second name</label>
+                    <div class="seccondnamet"><input type="text" id="secondname"></div>
+                    <label class="contactl">contact</label>
+                    <div class="contactt"><input type="text" id="contact"></div>
+                    <label class="emaill">email</label>
+                    <div class="emailt"><input type="email" id="email"></div>
+                    <label class="messagel">message</label>
+                    <textarea cols="30px" rows="30px" id="textarea"></textarea>
+                    <button type="submit" onclick="openpopup()">send</button>
+                </form>
+            </div>
+            <div class="nav">
+                <div class="word"> 
+                <div class="jym"><a href="https://docs.google.com/spreadsheets/d/1hgfQdguae6wfvzjX3RvT_efLBxOB166DKLgbsMTcueI/edit#gid=0">JYM</a></div>
+                <div class="hom"><a href="index.html">home</a></div>
+                <div class="media"><a href="media.html">media</a></div>
+                <div class="about"><a href="about.html">about</a></div>
+                <div class="contact"><a href="contact.html">contact</a></div>
+                </div>
+                <div class="soc">
+                    <a href="https://www.facebook.com/groups/354855171753921"><div class="face"><i class='bx bxl-facebook-circle'></i></div></a>
+                        <a href="https://www.youtube.com/channel/UCPEbrov0XpXlnkjY-D_yHSA"><div class="face"><i class='bx bxl-youtube' ></i></div></a>
+                            <a href="https://www.tiktok.com/@jyministries?_r=1&_d=dmfkh0hd4ifah5&sec_uid=MS4wLjABAAAA3Xfmslh33N6f7Rl6lbM9sx0R5z-_q2..."><div class="face"><i class='bx bxl-tiktok' ></i></div></a>
+                </div>
+            </div>
+        </section>
+        <section class="registration">
+            <div>
+            <form class="registra" action="https://sheetdb.io/api/v1/269wi95lqzh2p" method="post" id="sheet">
+            <label>NAME</label>
+            <input type="text" placeholder="" name="data[NAME]" required>
+            <label>CONTACT</label>
+            <input type="text" placeholder="" name="data[CONTACT]" required>
+            <label>EMAIL</label>
+            <input type="text" placeholder="" name="data[EMAIL]" required>
+            <label>CHURCH</label>
+            <input type="text" placeholder="" name="data[CHURCH]" required>
+            <label>LOCATION</label>
+            <input type="text" placeholder="" name="data[LOCATION]" required>
+            <button type="submit" onclick="openpopup1()">regista</button>
+            </div>
+            <div>
+            <label class="apk">joint youth app</label>
+            <img src="pics/LOGO.png" class="log2">
+            <a download="JointYouthMinistries" href="joint youth ministries_1_1.0.apk"><button type="button" class="DOWN">DOWNLOAD</button></a>
+            </div>
+            </form>
+        </section>
+
+        <nav class="lower1">
+            <div>
+                <div class="nav1">
+                    <div class="worddown1"> 
+                    <div class="hom1"><a href="index.html">home</a></div>
+                    <div class="media2"><a href="media.html">media</a></div>
+                    <div class="about3"><a href="about.html">about</a></div>
+                    <div class="contact4"><a href="contact.html">contact</a></div>
+                    </div>    
+            </div>
+
+            <div class="navmiddle1">
+            <span><a href="index.html"><img src="pics/HOME.jpeg"></a></span>
+            <SPAN class="navmedia1">
+                <div class="soc1">
+                    <a href="https://www.facebook.com/groups/354855171753921"><div class="face2"><i class='bx bxl-facebook-circle'></i></div></a>
+                        <a href="https://www.youtube.com/channel/UCPEbrov0XpXlnkjY-D_yHSA"><div class="face2"><i class='bx bxl-youtube' ></i></div></a>
+                            <a href="https://www.tiktok.com/@jyministries?_r=1&_d=dmfkh0hd4ifah5&sec_uid=MS4wLjABAAAA3Xfmslh33N6f7Rl6lbM9sx0R5z-_q2..."><div class="face2"><i class='bx bxl-tiktok' ></i></div></a>
+                </div>
+            </SPAN>
+            </div>
+            <div class="last1">
+                <span>
+            <p class="a1">CONTACTS</p>
+            <p class="a2">10920192009</p>
+            <p class="a3">9019201092909</p>
+            <p class="a4">enjoy in christ
+            when still youth
+            </p>
+            </span>
+            <div class="sent" id="sent" class="sent">
+            <img src="pics/tick.jpeg">
+            <h3>SENT</h3>
+            <p>YOUR MESSAGE SENT SUCCESSFULLY</p>
+            <button type="button" onclick="closepopup()">ok</button>
+            </div>
+            <div class="register" id="register">
+                <img src="pics/tick.jpeg">
+                <h3>SENT</h3>
+                <p>YOUR DETAILS HAVE BEEN SUBMITTED </p>
+                <button type="button" onclick="closepopup1()">ok</button>
+                </div>
+    
+            </div>
+        </nav>
+    </body>
+    <script>
+        let sent = document.getElementById("sent");
+        function openpopup(){
+            sent.classList.add('open-popup');
+            
+        }
+        function closepopup(){
+            sent.classList.remove("open-popup");
+        }
+    </script>
+    <script>
+        let register = document.getElementById("register");
+        function openpopup1(){
+            register.classList.add('open-popup1');
+            console.log('no refreshing!!!!!')
+        }
+        function closepopup1(){
+            register.classList.remove("open-popup1");
+        }
+    </script>
+    <script>
+        var form = document.getElementById('sheet')
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method : "post",
+                body: new FormData(document.getElementById("sheet")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                window.open('contact.html','_black');
+            });
+        });
+    </script>
+
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="emal"></script>
+</html>

@@ -1,0 +1,387 @@
+@import url('https//fonts.googleapis.com/css2?family=poppins:wght@300,400,500,600,700,800,900&display=swap');
+</P>*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    background-color: #0a0856;
+    text-decoration: none;
+}
+.sec {
+    display: flex;
+    width: 100%;
+}
+.sec .logo {
+    padding-top: 3vw;
+    justify-content: left;
+    align-items: center;
+}
+.sec .logo img {
+    width: 70vw;
+    border: 0px solid red;
+    border-radius: 50%;
+}
+/*-----for inqiury-----*/
+.form {
+    margin-top: -58vw;
+    margin-left: 15vw;
+    border: 3px solid aqua;
+    width: 40vw;
+    height: 55vw;
+    backdrop-filter: blur(90px);
+}
+h1{
+    color: black;
+    margin-bottom: 6vw;
+    margin-top: -0.05vw;
+}
+label {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 3vw;
+}
+input {
+    border: 2px solid aqua;
+    border-radius: 10px;
+    font-size: 2.4vw;
+}
+.firstnamel{
+    display: flex;
+    margin-top: -28px;
+}
+.firstnamet{
+    margin-left: 5vw;
+}
+.seccondnamet{
+    margin-left: 5vw;
+}
+.contactt{
+    margin-left: 5vw;
+}
+.emailt{
+    margin-left: 5vw;
+}
+.messaget{
+    margin-left: 5vw;
+}
+textarea{
+    width: 30vw;
+    height: 5vw;
+    outline: 2px solid blue;
+    border: 2px solid aqua ;
+    border-radius: 30px;
+    background-color: ;
+    font-size: 2vw;
+    padding: 2vw 2vw;
+    resize: none;
+    margin-left: 2.2vw;
+}
+button{
+    border: 3px solid rgb(68, 255, 0);
+    border-radius: 30px;
+    width: 18vw;
+    font-size: 5vw;
+    justify-content: center;
+    margin-left: 10vw;
+    background-color: aquamarine;
+    color: blueviolet;
+    transition: 1s;
+}
+button:hover{
+    outline: 2px solid aqua;
+    background-color: blueviolet;
+    color: bisque;
+}
+/*------for inquiry----*/
+.word a{
+    border: 5px solid magenta;
+    text-decoration: none;
+    color: white;
+    background-color: aqua;
+    border-radius: 50px;
+    outline: 5px solid rgb(0, 47, 255);
+    padding: 0px 15px;
+    transition: 3s;
+}
+.word a:hover {
+    background-color: rgb(56, 242, 10);
+    color: rgb(0, 173, 241);
+}
+.jym {
+    font-size: 3vw;
+    margin-top: 0vw;
+    margin-left: 10vw;
+    margin-bottom: -1vw;
+    font-weight: 900;
+}
+.hom {
+    font-size: 5vw;
+    margin-top: 10vw;
+    margin-left: -10vw;
+    font-weight: bolder;
+}
+.media {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-left: 0vw;
+    font-weight: bolder;
+}
+.about {
+    font-size: 5vw;
+    margin-top: 4vw;
+    margin-left: 0vw;
+    font-weight: bolder;
+}
+.contact {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-left: -10vw;
+    font-weight: bolder;
+}
+.soc {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 5vw;
+    margin-left: 3vw;
+    margin-top: 4vw;
+}
+.soc .face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: rgb(0, 38, 255);
+    margin-left: 10px;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+    outline: 2px solid salmon;
+
+}
+.soc .face :hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+.registration{
+    background: linear-gradient(70deg ,blue 10%,white 50% ,rgb(204, 255, 0) 80%);
+    border: 2px solid aqua;
+    backdrop-filter: blur(90px);
+    margin-top: 3vw;
+    height: 100%;
+}
+.registra{
+    justify-content: center;
+    border: 0px solid aqua;
+    width: 60vw;
+}
+.registra input{
+    margin-left: 1vw;
+    width: 55vw;
+}
+.registra button{
+    display: flex;
+    margin-left: 21vw;
+}
+.lower{
+    height: 30vh;
+    background-color: black;
+}
+.log2 {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    width: 40vw;
+    margin-top: -35vw;
+    margin-left: 55vw;
+}
+.apk{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    width: 40vw;
+    margin-top: -40vw;
+    margin-left: 65vw;
+    color: blueviolet;
+    font-size: 4VW;
+}
+.DOWN{
+    display: flex;
+    margin-left: 62VW;
+    font-size: 3VW;
+    width: 30VW;
+}
+/*------lower navbar------*/
+.lower1{
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    height: 25vw;
+}
+.worddown1 a{
+    text-decoration: none;
+    color: aqua;
+    background-color: blueviolet;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    padding: 0vw 2vw;
+    margin-left: 10vw;
+    font-size: 4.2vw;
+    outline: 3px solid chocolate;
+    transition: 3s;
+}
+.worddown1 a:hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+
+.hom1{
+    margin-left: -5vw;
+}
+.media2{
+    margin-left: 1vw;
+}
+.about3{
+    margin-left: 6vw;
+}
+.contact4{
+    margin-left:12vw;
+}
+.navmiddle1 img{
+    display: flex;
+    position: absolute;
+    margin-left: 43vw;
+    margin-top: -17vw;
+    width: 14vw;
+    height: 14vw;
+    border: 5px solid aqua;
+    border-radius: 100%;
+
+}
+.navmiddle1 img:hover{
+    color: rgb(0, 119, 255);
+    outline: 4px solid mediumseagreen;
+}
+.soc1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 5vw;
+    margin-left: 40vw;
+    margin-top: -10vw;
+}
+.soc1 .face2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: rgb(0, 38, 255);
+    margin-left: 10px;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+    outline: 2px solid salmon;
+
+}
+.soc1 .face2 :hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+.last1 .a1{
+    display: flex;
+    font-size: 4vw;
+    color: aqua;
+    margin-left: 66vw;
+    margin-top: -13.9vw;
+    margin-bottom: -4vw;
+}.last1 .a2{
+    font-size: 4vw;
+    color: aqua;
+    margin-left: 72vw;
+}
+.last1 .a3{
+    font-size: 3vw;
+    color: aqua;
+    margin-left: 71vw;
+    margin-top: -4vw;
+}
+.last1 .a4{
+    font-size: 3vw;
+    color: aqua;
+    margin-left: 70vw;
+    margin-top: -4vw;
+    text-align: center;
+}
+.sent{
+    position: fixed;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left:20%;
+    margin-top: -120%;
+    width: 60%;
+    height: 400PX;
+    background-color: aqua;
+    border: 3PX SOLID blue;
+}
+.sent{
+    visibility: hidden;
+}
+.open-popup{
+    visibility: visible;
+}
+
+.sent img{
+    border-radius: 130%;
+    margin-top: -90PX;
+}
+.sent h3{
+    font-size: 50PX;
+    margin-top: -10px;
+}
+.sent p{
+    font-size: 30PX;
+}
+.sent button{
+    margin-left: -10px;
+} 
+
+.register{
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left:20%;
+    margin-top: -100%;
+    width: 60%;
+    height: 400PX;
+    background-color: aqua;
+    border: 3PX SOLID blue;
+    visibility: hidden;
+}
+.open-popup1{
+    visibility: visible;
+}
+.register img{
+    border-radius: 130%;
+    margin-top: -90PX;
+}
+.register h3{
+    font-size: 50PX;
+    margin-top: -10px;
+}
+.register p{
+    font-size: 30PX;
+}
+.register button{
+    margin-left: -10px;
+} 

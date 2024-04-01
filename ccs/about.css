@@ -1,0 +1,548 @@
+@import url('https//fonts.googleapis.com/css2?family=poppins:wght@300,400,500,600,700,800,900&display=swap');
+</P>*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    min-height: 100vh;
+    background-color: #0a0856;
+    text-decoration: none;
+    max-height: 100vh;
+}
+.sec {
+    display: flex;
+    width: 100%;
+}
+.sec .logo {
+    padding-top: 3vw;
+    justify-content: left;
+    align-items: center;
+}
+.sec .logo img {
+    width: 70vw;
+    border: 0px solid red;
+    border-radius: 50%;
+}
+.sec .nav {
+    justify-content: right;
+    align-items: center;
+    text-decoration: none;
+}
+.word {
+    justify-content: center;
+    align-content: space-between;
+}
+.word a{
+    border: 5px solid magenta;
+    text-decoration: none;
+    color: white;
+    background-color: aqua;
+    border-radius: 50px;
+    outline: 5px solid rgb(0, 47, 255);
+    padding: 0px 15px;
+    transition: 3s;
+}
+.word a:hover {
+    background-color: rgb(56, 242, 10);
+    color: rgb(0, 173, 241);
+}
+.jym {
+    font-size: 3vw;
+    margin-top: 0vw;
+    margin-left: 10vw;
+    margin-bottom: -1vw;
+    font-weight: 900;
+}
+.hom {
+    font-size: 5vw;
+    margin-top: 10vw;
+    margin-left: -10vw;
+    font-weight: bolder;
+}
+.media {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-left: 0vw;
+    font-weight: bolder;
+}
+.about {
+    font-size: 5vw;
+    margin-top: 4vw;
+    margin-left: 0vw;
+    font-weight: bolder;
+}
+.contact {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-left: -10vw;
+    font-weight: bolder;
+}
+.soc {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 5vw;
+    margin-left: -6vw;
+    margin-top: 4vw;
+}
+.soc .face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: rgb(0, 38, 255);
+    margin-left: 10px;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+    outline: 2px solid salmon;
+
+}
+.soc .face :hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+/*---------------middle---------*/
+.main{
+    background-color: rgb(20, 0, 92);
+}
+.main video { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    visibility: visible;
+    background-color: aqua;
+    width: 97vw;
+    margin-left: -0vw;
+}
+.main .LE{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    visibility: visible;
+    background-color: aqua;
+    width: 97vw;
+    margin-left: -0vw;
+    hei
+}
+.main H{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3vw;
+    padding-left: 1vw;
+    margin-top: -95vw;
+}
+.intro {
+    color: aqua;
+    font-size: 2vw;
+    backdrop-filter: blur(2px);
+}
+.main p img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    border: 8px solid aqua;
+    border-radius: 50%;
+    outline: 3px solid green;
+}
+.main p label{
+    justify-content: center;
+    align-content: center;
+    color: aqua;
+    text-align: center;
+    background-color: magenta;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    outline: 4px double white;
+    font-size: 2vw;
+}
+.labelkv{
+    margin-left: 37vw;
+}
+.imgkv{
+    margin-left: 37vw;
+}
+.labelpr{
+    margin-left: 42vw;
+}
+.labelmk{
+    display: block;
+    position: relative;
+    margin-top: -25vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgmk{
+    display: block;
+    position: relative;
+    margin-top: -0.5vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelas{
+    display: block;
+    position: relative;
+    margin-top: -0.5vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labeljlk{
+    display: block;
+    position: relative;
+    margin-top: -32vw;
+    margin-left: 75vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgjlk{
+    display: block;
+    position: relative;
+    margin-top: -0.5vw;
+    margin-left: 75vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelaga{
+    display: block;
+    position: relative;
+    margin-top: -0.5vw;
+    margin-left: 75vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelka{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 10vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgka{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 10vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelgas{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 10vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelnp{
+    display: block;
+    position: relative;
+    margin-top: -30vw;
+    margin-left: 65vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgnp{
+    display: block;
+    position: relative;
+    margin-top: -0vw;
+    margin-left: 65vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelwa{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 65vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelnt{
+    display: block;
+    position: relative;
+    margin-top: -30vw;
+    margin-left: 38vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgnt{
+    display: block;
+    position: relative;
+    margin-top: vw;
+    margin-left: 38vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelwal{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 38vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelnkm{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgnkm{
+    display: block;
+    position: relative;
+    margin-top: vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelmed1{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelsp{
+    display: block;
+    position: relative;
+    margin-top: -27vw;
+    margin-left: 27vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgsp{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 27vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelmed2{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 27vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelka2{
+    display: block;
+    position: relative;
+    margin-top: -29vw;
+    margin-left: 52vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgka2{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 52vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelmed3{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 52vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labelmh{
+    display: block;
+    position: relative;
+    margin-top: -26vw;
+    margin-left: 75vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.imgmh{
+    display: block;
+    position: relative;
+    margin-top: -vw;
+    margin-left: 75vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.labeltr{
+    display: block;
+    position: relative;
+    margin-top: vw;
+    margin-left: 75vw;
+    width: 20vw;
+    background-color: magenta;
+}
+.are div img{
+    position: relative;
+    align-items: center;
+    width: 20vw;
+    border: 8px solid aqua;
+    border-radius: 50%;
+    outline: 3px solid green;
+}
+.are div label{
+    justify-content: center;
+    align-content: center;
+    color: aqua;
+    text-align: center;
+    background-color: magenta;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    outline: 4px double white;
+    font-size: 2vw;
+}
+
+.are{
+    display: flex;
+    background-color: chocolate;
+    
+}
+.is div img{
+    position: relative;
+    align-items: center;
+    width: 20vw;
+    border: 8px solid aqua;
+    border-radius: 50%;
+    outline: 3px solid green;
+}
+.is div label{
+    justify-content: center;
+    align-content: center;
+    color: aqua;
+    text-align: center;
+    background-color: magenta;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    outline: 4px double white;
+    font-size: 2vw;
+}
+
+.is{
+    display: flex;
+    padding-top: 50px;
+    background-color: chocolate;
+}
+
+/*------lower navbar------*/
+.lower1{
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    height: 25vw;
+}
+.worddown1 a{
+    text-decoration: none;
+    color: aqua;
+    background-color: blueviolet;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    padding: 0vw 2vw;
+    margin-left: 10vw;
+    font-size: 4.2vw;
+    outline: 3px solid chocolate;
+    transition: 3s;
+}
+.worddown1 a:hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+
+.hom1{
+    margin-left: -5vw;
+}
+.media2{
+    margin-left: 1vw;
+}
+.about3{
+    margin-left: 6vw;
+}
+.contact4{
+    margin-left:12vw;
+}
+.navmiddle1 img{
+    display: flex;
+    position: absolute;
+    margin-left: 43vw;
+    margin-top: -17vw;
+    width: 14vw;
+    height: 14vw;
+    border: 5px solid aqua;
+    border-radius: 100%;
+
+}
+.navmiddle1 img:hover{
+    color: rgb(0, 119, 255);
+    outline: 4px solid mediumseagreen;
+}
+.soc1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 5vw;
+    margin-left: 40vw;
+    margin-top: -10vw;
+}
+.soc1 .face2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: rgb(0, 38, 255);
+    margin-left: 10px;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+    outline: 2px solid salmon;
+
+}
+.soc1 .face2 :hover{
+    color: azure;
+    background-color: chartreuse;
+    border: 5px solid rgb(0, 128, 11);
+    border-radius: 50px;
+}
+.last1 .a1{
+    display: flex;
+    font-size: 4vw;
+    color: aqua;
+    margin-left: 66vw;
+    margin-top: -13.9vw;
+    margin-bottom: -4vw;
+}.last1 .a2{
+    font-size: 4vw;
+    color: aqua;
+    margin-left: 72vw;
+}
+.last1 .a3{
+    font-size: 3vw;
+    color: aqua;
+    margin-left: 71vw;
+    margin-top: -4vw;
+}
+.last1 .a4{
+    font-size: 3vw;
+    color: aqua;
+    margin-left: 70vw;
+    margin-top: -4vw;
+    text-align: center;
+}
+.speak video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 10px solid aqua;
+    border-radius: 40px;
+    width: 100%;
+}
