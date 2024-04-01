@@ -432,6 +432,9 @@ body {
     padding-top: 50px;
     background-color: chocolate;
 }
+iframe {
+    width: 97vw;
+}
 
 /*------lower navbar------*/
 .lower1{
